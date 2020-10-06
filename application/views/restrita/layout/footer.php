@@ -1,3 +1,4 @@
+<?php if ($this->router->fetch_class() != 'login'): ?>
 <footer class="main-footer">
 	<div class="footer-left">
 		<a href="templateshub.net">Templateshub</a></a>
@@ -5,6 +6,7 @@
 	<div class="footer-right">
 	</div>
 </footer>
+<?php endif; ?>
 </div>
 </div>
 <!-- General JS Scripts -->
